@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var wiredep = require('wiredep').stream;
+var wiredep = require('wiredep-away').stream;
 var elixir = require('laravel-elixir');
 var path = require('path');
 var wiredepConfig = require('./config');
